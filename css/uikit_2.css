@@ -17,12 +17,7 @@
 
 
 
-/*
- * 1. Set `font-size` to support `rem` units
- *    Not using `font` property because a leading hyphen (e.g. -apple-system) causes the font to break in IE11 and Edge
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- * 3. Style
- 
+
 
 
 
@@ -31,8 +26,8 @@
 
  @font-face {
     font-family: 'RBNo3.1 Ultra';
-    src: url('https://hyperxstyle.netlify.app/fonts/RBNo31-UltraItalic.woff2') format('woff2'),
-        url('https://hyperxstyle.netlify.app/fonts/RBNo31-UltraItalic.woff') format('woff');
+    src: url('https://yslhp.github.io/herostyles/fonts/RBNo31-UltraItalic.woff2') format('woff2'),
+        url('https://yslhp.github.io/herostyles/fonts/RBNo31-UltraItalic.woff') format('woff');
     font-weight: 500;
     font-style: italic;
     font-display: swap;
@@ -40,8 +35,8 @@
 
 @font-face {
     font-family: 'RBNo3.1';
-    src: url('https://hyperxstyle.netlify.app/fonts/RBNo31-Thin.woff2') format('woff2'),
-        url('https://hyperxstyle.netlify.app/fonts/RBNo31-Thin.woff') format('woff');
+    src: url('https://yslhp.github.io/herostyles/fonts/RBNo31-Thin.woff2') format('woff2'),
+        url('https://yslhp.github.io/herostyles/fonts/RBNo31-Thin.woff') format('woff');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -49,8 +44,8 @@
 
 @font-face {
     font-family: 'RBNo3.1';
-    src: url('https://hyperxstyle.netlify.app/fonts/RBNo31-ThinItalic.woff2') format('woff2'),
-        url('https://hyperxstyle.netlify.app/fonts/RBNo31-ThinItalic.woff') format('woff');
+    src: url('https://yslhp.github.io/herostyles/fonts/RBNo31-ThinItalic.woff2') format('woff2'),
+        url('https://yslhp.github.io/herostyles/fonts/RBNo31-ThinItalic.woff') format('woff');
     font-weight: 100;
     font-style: italic;
     font-display: swap;
@@ -58,8 +53,8 @@
 
 @font-face {
     font-family: 'RBNo3.1';
-    src: url('https://hyperxstyle.netlify.app/fonts/RBNo31-MediumItalicRBNo31-Mediumvfb.woff2') format('woff2'),
-        url('https://hyperxstyle.netlify.app/fonts/RBNo31-MediumItalicRBNo31-Mediumvfb.woff') format('woff');
+    src: url('https://yslhp.github.io/herostyles/fonts/RBNo31-MediumItalicRBNo31-Mediumvfb.woff2') format('woff2'),
+        url('https://yslhp.github.io/herostyles/fonts/RBNo31-MediumItalicRBNo31-Mediumvfb.woff') format('woff');
     font-weight: 500;
     font-style: italic;
     font-display: swap;
@@ -67,8 +62,8 @@
 
 @font-face {
     font-family: 'RBNo3.1 Ultra';
-    src: url('https://hyperxstyle.netlify.app/fonts/RBNo31-Ultra.woff2') format('woff2'),
-        url('https://hyperxstyle.netlify.app/fonts/RBNo31-Ultra.woff') format('woff');
+    src: url('https://yslhp.github.io/herostyles/fonts/RBNo31-Ultra.woff2') format('woff2'),
+        url('https://yslhp.github.io/herostyles/fonts/RBNo31-Ultra.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -76,8 +71,8 @@
 
 @font-face {
     font-family: 'RBNo3.1';
-    src: url('https://hyperxstyle.netlify.app/fonts/RBNo31-ExtraboldItalic.woff2') format('woff2'),
-        url('https://hyperxstyle.netlify.app/fonts/RBNo31-ExtraboldItalic.woff') format('woff');
+    src: url('https://yslhp.github.io/herostyles/fonts/RBNo31-ExtraboldItalic.woff2') format('woff2'),
+        url('https://yslhp.github.io/herostyles/fonts/RBNo31-ExtraboldItalic.woff') format('woff');
     font-weight: 500;
     font-style: italic;
     font-display: swap;
@@ -85,8 +80,8 @@
 
 @font-face {
     font-family: 'RBNo3.1';
-    src: url('https://hyperxstyle.netlify.app/fonts/RBNo31-Light.woff2') format('woff2'),
-        url('https://hyperxstyle.netlify.app/fonts/RBNo31-Light.woff') format('woff');
+    src: url('https://yslhp.github.io/herostyles/fonts/RBNo31-Light.woff2') format('woff2'),
+        url('https://yslhp.github.io/herostyles/fonts/RBNo31-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -94,8 +89,8 @@
 
 @font-face {
     font-family: 'RBNo3.1';
-    src: url('https://hyperxstyle.netlify.app/fonts/RBNo31-Medium.woff2') format('woff2'),
-        url('https://hyperxstyle.netlify.app/fonts/RBNo31-Medium.woff') format('woff');
+    src: url('https://yslhp.github.io/herostyles/fonts/RBNo31-Medium.woff2') format('woff2'),
+        url('https://yslhp.github.io/herostyles/fonts/RBNo31-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -103,8 +98,8 @@
 
 @font-face {
     font-family: 'RBNo3.1';
-    src: url('https://hyperxstyle.netlify.app/fonts/RBNo31-LightItalic.woff2') format('woff2'),
-        url('https://hyperxstyle.netlify.app/fonts/RBNo31-LightItalic.woff') format('woff');
+    src: url('https://yslhp.github.io/herostyles/fonts/RBNo31-LightItalic.woff2') format('woff2'),
+        url('https://yslhp.github.io/herostyles/fonts/RBNo31-LightItalic.woff') format('woff');
     font-weight: 300;
     font-style: italic;
     font-display: swap;
@@ -112,8 +107,8 @@
 
 @font-face {
     font-family: 'RBNo3.1';
-    src: url('https://hyperxstyle.netlify.app/fonts/RBNo31-Extrabold.woff2') format('woff2'),
-        url('https://hyperxstyle.netlify.app/fonts/RBNo31-Extrabold.woff') format('woff');
+    src: url('https://yslhp.github.io/herostyles/fonts/RBNo31-Extrabold.woff2') format('woff2'),
+        url('https://yslhp.github.io/herostyles/fonts/RBNo31-Extrabold.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -121,8 +116,8 @@
 
 @font-face {
     font-family: 'RBNo3.1 Book';
-    src: url('https://hyperxstyle.netlify.app/fonts/RBNo31-BookItalic.woff2') format('woff2'),
-        url('https://hyperxstyle.netlify.app/fonts/RBNo31-BookItalic.woff') format('woff');
+    src: url('https://yslhp.github.io/herostyles/fonts/RBNo31-BookItalic.woff2') format('woff2'),
+        url('https://yslhp.github.io/herostyles/fonts/RBNo31-BookItalic.woff') format('woff');
     font-weight: 500;
     font-style: italic;
     font-display: swap;
@@ -130,8 +125,8 @@
 
 @font-face {
     font-family: 'RBNo3.1';
-    src: url('https://hyperxstyle.netlify.app/fonts/RBNo31-BoldItalic.woff2') format('woff2'),
-        url('https://hyperxstyle.netlify.app/fonts/RBNo31-BoldItalic.woff') format('woff');
+    src: url('https://yslhp.github.io/herostyles/fonts/RBNo31-BoldItalic.woff2') format('woff2'),
+        url('https://yslhp.github.io/herostyles/fonts/RBNo31-BoldItalic.woff') format('woff');
     font-weight: 500;
     font-style: italic;
     font-display: swap;
@@ -139,8 +134,8 @@
 
 @font-face {
     font-family: 'RBNo3.1';
-    src: url('https://hyperxstyle.netlify.app/fonts/RBNo31-ExtraLightItalic.woff2') format('woff2'),
-        url('https://hyperxstyle.netlify.app/fonts/RBNo31-ExtraLightItalic.woff') format('woff');
+    src: url('https://yslhp.github.io/herostyles/fonts/RBNo31-ExtraLightItalic.woff2') format('woff2'),
+        url('https://yslhp.github.io/herostyles/fonts/RBNo31-ExtraLightItalic.woff') format('woff');
     font-weight: 200;
     font-style: italic;
     font-display: swap;
@@ -148,8 +143,8 @@
 
 @font-face {
     font-family: 'RBNo3.1';
-    src: url('https://hyperxstyle.netlify.app/fonts/RBNo31-ExtraLight.woff2') format('woff2'),
-        url('https://hyperxstyle.netlify.app/fonts/RBNo31-ExtraLight.woff') format('woff');
+    src: url('https://yslhp.github.io/herostyles/fonts/RBNo31-ExtraLight.woff2') format('woff2'),
+        url('https://yslhp.github.io/herostyles/fonts/RBNo31-ExtraLight.woff') format('woff');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -157,8 +152,8 @@
 
 @font-face {
     font-family: 'RBNo3.1 Book';
-    src: url('https://hyperxstyle.netlify.app/fonts/RBNo31-Book.woff2') format('woff2'),
-        url('https://hyperxstyle.netlify.app/fonts/RBNo31-Book.woff') format('woff');
+    src: url('https://yslhp.github.io/herostyles/fonts/RBNo31-Book.woff2') format('woff2'),
+        url('https://yslhp.github.io/herostyles/fonts/RBNo31-Book.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -166,8 +161,8 @@
 
 @font-face {
     font-family: 'RBNo3.1';
-    src: url('https://hyperxstyle.netlify.app/fonts/RBNo31-BlackItalic.woff2') format('woff2'),
-        url('https://hyperxstyle.netlify.app/fonts/RBNo31-BlackItalic.woff') format('woff');
+    src: url('https://yslhp.github.io/herostyles/fonts/RBNo31-BlackItalic.woff2') format('woff2'),
+        url('https://yslhp.github.io/herostyles/fonts/RBNo31-BlackItalic.woff') format('woff');
     font-weight: 500;
     font-style: italic;
     font-display: swap;
@@ -175,8 +170,8 @@
 
 @font-face {
     font-family: 'RBNo3.1';
-    src: url('https://hyperxstyle.netlify.app/fonts/RBNo31-Bold.woff2') format('woff2'),
-        url('https://hyperxstyle.netlify.app/fonts/RBNo31-Bold.woff') format('woff');
+    src: url('https://yslhp.github.io/herostyles/fonts/RBNo31-Bold.woff2') format('woff2'),
+        url('https://yslhp.github.io/herostyles/fonts/RBNo31-Bold.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -184,8 +179,8 @@
 
 @font-face {
     font-family: 'RBNo3.1';
-    src: url('https://hyperxstyle.netlify.app/fonts/RBNo31-Black.woff2') format('woff2'),
-        url('https://hyperxstyle.netlify.app/fonts/RBNo31-Black.woff') format('woff');
+    src: url('https://yslhp.github.io/herostyles/fonts/RBNo31-Black.woff2') format('woff2'),
+        url('https://yslhp.github.io/herostyles/fonts/RBNo31-Black.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -195,12 +190,6 @@
 
 
 
-
-
-
-
-
-*/
 
 
 
