@@ -412,7 +412,7 @@ figure {
 }
 
 /* Headings
- ========================================================================== */
+ ========================================================================== 
 h1,
 .uk-h1,
 h2,
@@ -436,8 +436,8 @@ h6,
   color: #333;
   text-transform: none;
 }
-
-/* Add margin if adjacent element */
+*/
+/* Add margin if adjacent element 
 *+h1,
 *+.uk-h1,
 *+h2,
@@ -457,10 +457,10 @@ h6,
 *+.uk-heading-2xlarge {
   margin-top: 40px;
 }
-
+*/
 /*
  * Sizes
- */
+ 
 h1,
 .uk-h1 {
   font-size: 2.23125rem;
@@ -496,8 +496,9 @@ h6,
   font-size: 0.875rem;
   line-height: 1.4;
 }
+*/
 
-/* Tablet landscape and bigger */
+/* Tablet landscape and bigger 
 @media (min-width: 960px) {
 
   h1,
@@ -510,7 +511,7 @@ h6,
     font-size: 2rem;
   }
 }
-
+*/
 /* Lists
  ========================================================================== */
 ul,
